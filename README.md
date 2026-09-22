@@ -18,14 +18,14 @@ We see that the cross-country dispersion of EUROZONE HICP inflation rose sharply
 
 ## Charts
 
-![Inflation by country](output/1_trajectories.png)
-![Dispersion over time](output/2_dispersion.png)
-![Before / after first cut](output/3_before_after.png)
+![Inflation by country](1_trajectories.png)
+![Dispersion over time](2_dispersion.png)
+![Before / after first cut](_before_after.png)
 
 ## Repo contents
 
 - `hicp_dispersion.py` — fetch, clean, analyse, and chart
-- `output/` — generated CSVs and PNG charts
+- `1_trajectories.png`, `2_dispersion.png`, `3_before_after.png` — the three charts above
 - `README.md` — this file
 
 ## Run it yourself
