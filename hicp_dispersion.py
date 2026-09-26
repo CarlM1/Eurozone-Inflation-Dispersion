@@ -30,10 +30,6 @@ import matplotlib.pyplot as plt
 # dimensions FREQ.REF_AREA.ADJUSTMENT.ICP_ITEM.STS_INSTITUTION.SUFFIX), verified
 # against the ECB's own reference examples. Countries: Germany, France, Italy,
 # Spain, Netherlands, Ireland, Portugal, Greece — a deliberate core/periphery mix.
-# I could NOT actually execute this from my sandbox (its network doesn't reach
-# data-api.ecb.europa.eu), so the first thing to do is paste this into a browser
-# address bar yourself — it should download/show a CSV. If it errors, tell me
-# the exact error and we'll fix the key (e.g. a wrong country or item code).
 API_URL = "https://data-api.ecb.europa.eu/service/data/ICP/M.DE+FR+IT+ES+NL+IE+PT+GR.N.000000.4.ANR?format=csvdata&startPeriod=2021-01"
 
 # Known ECB deposit facility rate decision dates (verified 2022 - mid 2025;
