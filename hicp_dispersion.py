@@ -33,8 +33,6 @@ import matplotlib.pyplot as plt
 API_URL = "https://data-api.ecb.europa.eu/service/data/ICP/M.DE+FR+IT+ES+NL+IE+PT+GR.N.000000.4.ANR?format=csvdata&startPeriod=2021-01"
 
 # Known ECB deposit facility rate decision dates (verified 2022 - mid 2025;
-# double-check anything after that on ecb.europa.eu before you rely on it,
-# since more recent decisions may not be reflected here).
 RATE_DECISIONS = {
     "2022-07-27": 0.00,
     "2022-09-14": 0.75,
@@ -56,8 +54,7 @@ RATE_DECISIONS = {
     "2025-06-11": 2.00,
 }
 
-# The one decision you want to draw a vertical "before / after" line at
-# for the split-comparison chart.
+
 FOCUS_DECISION = "2024-06-12"
 
 OUTPUT_DIR = "output"
@@ -81,9 +78,7 @@ def fetch_hicp(api_url: str) -> pd.DataFrame:
 
 def reshape_hicp(raw: pd.DataFrame) -> pd.DataFrame:
     """
-    ECB csvdata responses vary slightly in column naming by dataset, so this
-    looks for the columns it needs case-insensitively rather than assuming
-    exact names.
+
     """
     cols = {c.lower(): c for c in raw.columns}
     ref_area_col = cols.get("ref_area") or cols.get("cust_breakdown") or "REF_AREA"
