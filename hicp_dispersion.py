@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 # Spain, Netherlands, Ireland, Portugal, Greece — a deliberate core/periphery mix.
 API_URL = "https://data-api.ecb.europa.eu/service/data/ICP/M.DE+FR+IT+ES+NL+IE+PT+GR.N.000000.4.ANR?format=csvdata&startPeriod=2021-01"
 
-# Known ECB deposit facility rate decision dates (verified 2022 - mid 2025;
+# # ECB deposit facility rate decisions, 2022–2025.
 RATE_DECISIONS = {
     "2022-07-27": 0.00,
     "2022-09-14": 0.75,
@@ -44,7 +44,7 @@ RATE_DECISIONS = {
     "2023-06-21": 3.50,
     "2023-08-02": 3.75,
     "2023-09-20": 4.00,  # peak of the hiking cycle
-    "2024-06-12": 3.75,  # first cut — during Carl's ECB internship window
+    "2024-06-12": 3.75,  # first cut 
     "2024-09-18": 3.50,
     "2024-10-23": 3.25,
     "2024-12-18": 3.00,
