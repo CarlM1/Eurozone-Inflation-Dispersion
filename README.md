@@ -10,7 +10,7 @@ around the ECB's rate decisions.
 - Dispersion metric: cross-country standard deviation of YoY inflation, computed per month.
 - Comparison: average dispersion in the six months before vs. six months after the ECB's first rate cut (12 June 2024).
 
-Answering the question on where the dispersion of inflation across member states across the european union (important not only using the euro-area average)
+
 
 ## Findings:
 
