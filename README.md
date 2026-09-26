@@ -20,7 +20,7 @@ We see that the cross-country dispersion of EUROZONE HICP inflation rose sharply
 
 ![Inflation by country](1_trajectories.png)
 ![Dispersion over time](2_dispersion.png)
-![Before / after first cut](_before_after.png)
+![Before / after first cut](3_before_after.png)
 
 ## Repo contents
 
